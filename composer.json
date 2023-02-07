@@ -1,5 +1,6 @@
 {
     "name": "lukekortunov/micra",
+    "version": "1.0.1",
     "description": "Skeleton for incredibly simple PHP apps with Routing, DI and Dotenv",
     "type": "library",
     "license": "MIT",
