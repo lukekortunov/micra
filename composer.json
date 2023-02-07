@@ -1,6 +1,6 @@
 {
     "name": "lukekortunov/micra",
-    "description": "Skeleton for incredibly simple PHP apps with FastRouter, and PHP-DI",
+    "description": "Skeleton for incredibly simple PHP apps with Routing, DI and Dotenv",
     "type": "library",
     "license": "MIT",
     "autoload": {
