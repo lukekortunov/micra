@@ -20,7 +20,9 @@ $responseFactory = new ResponseFactory();
 $strategy = new JsonStrategy($responseFactory);
 $strategy->setContainer($container);
 
-$router = (new League\Route\Router)->setStrategy($strategy);
+$router = (new League\Route\Router);
+$router->middleware(new \App\Middleware\AuthenticationMiddleware);
+$router->setStrategy($strategy);
 $router->map('GET', '/', \App\Controller\RockPaperScissorsController::class);
 
 $response = $router->dispatch($request);

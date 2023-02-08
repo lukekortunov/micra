@@ -1,6 +1,6 @@
 {
     "name": "lukekortunov/micra",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "Skeleton for incredibly simple PHP apps with Routing, DI and Dotenv",
     "type": "library",
     "license": "MIT",
@@ -21,7 +21,8 @@
         "laminas/laminas-diactoros": "^2.24",
         "league/container": "^4.2",
         "laminas/laminas-httphandlerrunner": "^2.5",
-        "symfony/dotenv": "^6.2"
+        "symfony/dotenv": "^6.2",
+        "lcobucci/jwt": "^4.3"
     },
     "require-dev": {
         "symfony/var-dumper": "^6.2",
