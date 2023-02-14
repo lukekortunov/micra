@@ -21,7 +21,7 @@ $strategy = new JsonStrategy($responseFactory);
 $strategy->setContainer($container);
 
 $router = (new League\Route\Router);
-$router->middleware(new \App\Middleware\AuthenticationMiddleware);
+//$router->middleware(new \App\Middleware\AuthenticationMiddleware);
 $router->setStrategy($strategy);
 $router->map('GET', '/', \App\Controller\RockPaperScissorsController::class);
 

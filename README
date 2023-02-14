@@ -1,0 +1,11 @@
+## Run application
+You can manually run app.php by any server you want, but I've packed Makefile to make life easier.
+Just execute `make serve` and it will start PHP server on port `8008`.
+
+## HTTP Middlewares
+
+### Authorization middleware
+To enable JWT authorization you need to generate RSA keys by executing `make generate-rsa-keys` and uncomment code `// $router->middleware(new \App\Middleware\AuthenticationMiddleware);` in `src/app.php`.
+It will add JWT middleware to your request-response flow, so only valid JWTs in headers will be accepted.
+
+Note: To generate JWT token you can use [jwt.io](jwt.io). You need to use RS512 algorithm and paste your public and private keys to the corresponding fields.
