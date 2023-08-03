@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8c354c4666c4eb520138aac3d0c948f2",
+    "content-hash": "e192279589e8fb08bf4c89f3d4bb8aa2",
     "packages": [
         {
             "name": "laminas/laminas-diactoros",
@@ -478,6 +478,47 @@
                 }
             ],
             "time": "2021-07-30T08:33:09+00:00"
+        },
+        {
+            "name": "lukekortunov/micra-contracts",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lukekortunov/micra-contracts.git",
+                "reference": "4c88f64c2ec5ba251439d75e37875bc41760511a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lukekortunov/micra-contracts/zipball/4c88f64c2ec5ba251439d75e37875bc41760511a",
+                "reference": "4c88f64c2ec5ba251439d75e37875bc41760511a",
+                "shasum": ""
+            },
+            "require": {
+                "league/container": "^4.2",
+                "php": ">=8.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LukeKortunov\\Micra\\Contracts\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Luke Kortunov",
+                    "email": "luke@kortunov.me"
+                }
+            ],
+            "description": "Collection of shared interfaces required by Micra framework",
+            "support": {
+                "issues": "https://github.com/lukekortunov/micra-contracts/issues",
+                "source": "https://github.com/lukekortunov/micra-contracts/tree/v1.2.0"
+            },
+            "time": "2023-08-03T14:55:04+00:00"
         },
         {
             "name": "nikic/fast-route",
@@ -2822,5 +2863,5 @@
         "php": ">=8.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
